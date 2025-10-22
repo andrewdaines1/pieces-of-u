@@ -24,7 +24,7 @@ The table below lists each capital letter with the number of straight-line segme
 | R | 2 | 1 | 3 |
 | S | 0 | 2 | 2 |
 | T | 2 | 0 | 2 |
-| U | 2 | 1 | 3 |
+| U | 0 | 1 | 1 |
 | V | 2 | 0 | 2 |
 | W | 4 | 0 | 4 |
 | X | 2 | 0 | 2 |
@@ -37,9 +37,9 @@ Unique letter recipes: **8 combinations**
 |----------------|--------|--------------|---------|
 | 4 | 0 | 3 | E, M, W |
 | 3 | 0 | 8 | A, F, H, I, K, N, Y, Z |
-| 2 | 1 | 3 | G, R, U |
+| 2 | 1 | 2 | G, R |
 | 2 | 0 | 4 | L, T, V, X |
 | 1 | 2 | 2 | B, Q |
 | 1 | 1 | 3 | D, J, P |
 | 0 | 2 | 2 | O, S |
-| 0 | 1 | 1 | C |
+| 0 | 1 | 2 | C, U |
