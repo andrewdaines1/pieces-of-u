@@ -1,2 +1,7 @@
 # pieces-of-u
-puzzle game prototype
+
+A puzzle game prototype.
+
+## Hello World
+
+hello world
