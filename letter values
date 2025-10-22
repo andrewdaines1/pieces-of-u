@@ -1,0 +1,39 @@
+| Letter | Straight Lines | Curves |
+|--------|----------------|--------|
+| A | 3 | 0 |
+| B | 1 | 2 |
+| C | 0 | 1 |
+| D | 1 | 1 |
+| E | 4 | 0 |
+| F | 3 | 0 |
+| G | 1 | 1 |
+| H | 3 | 0 |
+| I | 1 | 0 |
+| J | 1 | 1 |
+| K | 3 | 0 |
+| L | 2 | 0 |
+| M | 4 | 0 |
+| N | 3 | 0 |
+| O | 0 | 2 |
+| P | 1 | 1 |
+| Q | 1 | 2 |
+| R | 2 | 1 |
+| S | 0 | 2 |
+| T | 2 | 0 |
+| U | 2 | 1 |
+| V | 2 | 0 |
+| W | 4 | 0 |
+| X | 2 | 0 |
+| Y | 3 | 0 |
+| Z | 3 | 0 |
+
+Unique letter recipes: 9
+- 3 straight lines & 0 curves (A, F, H, K, N, Y, Z)
+- 1 straight line & 2 curves (B, Q)
+- 0 straight lines & 1 curve (C)
+- 1 straight line & 1 curve (D, G, J, P)
+- 4 straight lines & 0 curves (E, M, W)
+- 1 straight line & 0 curves (I)
+- 2 straight lines & 0 curves (L, T, V, X)
+- 0 straight lines & 2 curves (O, S)
+- 2 straight lines & 1 curve (R, U)
