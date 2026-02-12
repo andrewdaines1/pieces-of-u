@@ -1,39 +1,45 @@
-| Letter | Straight Lines | Curves |
-|--------|----------------|--------|
-| A | 3 | 0 |
-| B | 1 | 2 |
-| C | 0 | 1 |
-| D | 1 | 1 |
-| E | 4 | 0 |
-| F | 3 | 0 |
-| G | 1 | 1 |
-| H | 3 | 0 |
-| I | 1 | 0 |
-| J | 1 | 1 |
-| K | 3 | 0 |
-| L | 2 | 0 |
-| M | 4 | 0 |
-| N | 3 | 0 |
-| O | 0 | 2 |
-| P | 1 | 1 |
-| Q | 1 | 2 |
-| R | 2 | 1 |
-| S | 0 | 2 |
-| T | 2 | 0 |
-| U | 2 | 1 |
-| V | 2 | 0 |
-| W | 4 | 0 |
-| X | 2 | 0 |
-| Y | 3 | 0 |
-| Z | 3 | 0 |
+# Letter Construction Reference
 
-Unique letter recipes: 9
-- 3 straight lines & 0 curves (A, F, H, K, N, Y, Z)
-- 1 straight line & 2 curves (B, Q)
-- 0 straight lines & 1 curve (C)
-- 1 straight line & 1 curve (D, G, J, P)
-- 4 straight lines & 0 curves (E, M, W)
-- 1 straight line & 0 curves (I)
-- 2 straight lines & 0 curves (L, T, V, X)
-- 0 straight lines & 2 curves (O, S)
-- 2 straight lines & 1 curve (R, U)
+The table below lists each capital letter with the number of straight-line segments and semi-circle curves required to render a simplified block version of the alphabet. The "Total Segments" column is simply the sum of the straight lines and curves for convenience when calculating future scoring weights.
+
+| Letter | Straight Lines | Curves | Total Segments |
+|--------|----------------|--------|----------------|
+| A | 3 | 0 | 3 |
+| B | 1 | 2 | 3 |
+| C | 0 | 1 | 1 |
+| D | 1 | 1 | 2 |
+| E | 4 | 0 | 4 |
+| F | 3 | 0 | 3 |
+| G | 2 | 1 | 3 |
+| H | 3 | 0 | 3 |
+| I | 3 | 0 | 3 |
+| J | 1 | 1 | 2 |
+| K | 3 | 0 | 3 |
+| L | 2 | 0 | 2 |
+| M | 4 | 0 | 4 |
+| N | 3 | 0 | 3 |
+| O | 0 | 2 | 2 |
+| P | 1 | 1 | 2 |
+| Q | 1 | 2 | 3 |
+| R | 2 | 1 | 3 |
+| S | 0 | 2 | 2 |
+| T | 2 | 0 | 2 |
+| U | 0 | 1 | 1 |
+| V | 2 | 0 | 2 |
+| W | 4 | 0 | 4 |
+| X | 2 | 0 | 2 |
+| Y | 3 | 0 | 3 |
+| Z | 3 | 0 | 3 |
+
+Unique letter recipes: **8 combinations**
+
+| Straight Lines | Curves | Letter Count | Letters |
+|----------------|--------|--------------|---------|
+| 4 | 0 | 3 | E, M, W |
+| 3 | 0 | 8 | A, F, H, I, K, N, Y, Z |
+| 2 | 1 | 2 | G, R |
+| 2 | 0 | 4 | L, T, V, X |
+| 1 | 2 | 2 | B, Q |
+| 1 | 1 | 3 | D, J, P |
+| 0 | 2 | 2 | O, S |
+| 0 | 1 | 2 | C, U |
